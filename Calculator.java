@@ -37,6 +37,35 @@ public class Calculator{
         return result;
     }
 
+    //add method that rturns a double
+    public double addDouble(double a, double b){
+        double result = a + b;
+        return result;
+    }
+
+    //subtract method that returns a double
+    public double subtractDouble(double a, double b){
+        double result = a - b;
+        return result;
+    }
+
+  //multiply method that rturns a double
+    public double multiplyDouble(double a, double b){
+        double result = a * b;
+        return result;
+    }
+
+  //divide method that rturns a double
+    public double divideDouble(double a, double b){
+        double result = a / b;
+        return result;
+    }
+
+  //modulo method that rturns a double
+    public double moduloDouble(double a, double b){
+        double result = a % b;
+        return result;
+    }
     public static void main(String[] args){
 
         Calculator myCalculator = new Calculator();
